@@ -13,8 +13,20 @@
 }
 
 .inicio {
-    background-image: url();
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
+
+.textoCardInicio {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .cardInicio img {
     max-width: 250px;
@@ -24,7 +36,32 @@
 
 .cardInicio {
     background-color: oklch(92% 0.004 286.32);
-    box-shadow: 2px 2px 7px black;
-    max-width: 400px;
-    max-height: 200px;
+    max-width: 40%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 15px;
+}
+
+.textoInicio2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cardInicio2 {
+    background-color: oklch(92% 0.004 286.32);
+    max-width: 40%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 15px;
+}
+
+.cardInicio2 img {
+    max-width: 250px;
+    max-height: 250px;
+
 }
